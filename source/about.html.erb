@@ -43,61 +43,69 @@
   <div class="row">
     
     <div class="col-lg-12">
-      <h2 class="page-header">Partners</h2>
+      <h2 class="page-header">Contact<small> We'd Love to Hear From You!</small>
+      </h2>
     </div>
     
+    <div class="col-xs-8">
 
-    <% for partner_id in data.about.partners.keys %>
+      <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+      <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.7729443359995!2d77.5763667!3d12.9863693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae161654fad2c1%3A0xa0272a52eeec13cc!2s19%2F1%2C+Railway+Parallel+Rd%2C+Nehru+Nagar%2C+Seshadripuram!5e0!3m2!1sen!2sin!4v1400067110697">
+      </iframe>
 
-    <div class="col-sm-4" style="height:450px;">
-      <% if(data.about.partners[partner_id].image != 'nil') %>
-      <img class="img-responsive" src="<%= data.about.partners[partner_id].image %>">
-      <% end %>
-      <h3>
-	<%= data.about.partners[partner_id].name %>
-	<small> <%= data.about.partners[partner_id].job %></small>
-      </h3>
-      <p><%= data.about.partners[partner_id].description %></p>
+    </div>
+
+    <div class="col-xs-4">
+    
+      <h3><%= data.contact.name %></h3>
+      <h4><%= data.contact.tagline %></h4>
+
+      <p><%= data.contact.address %></p>
+
+      <p><i class="fa fa-phone"></i><abbr title="Phone">P</abbr>: <%= data.contact.phone %></p>
+      <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:<%= data.contact.email %>"><%= data.contact.email %></a></p>
+      <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: <%= data.contact.working_hrs %></p>
 
       <ul class="list-unstyled list-inline list-social-icons">
 
-	<% if(data.about.partners[partner_id].facebook != 'nil') %>
-        <li class="tooltip-social facebook-link">
-	  <a href="<%= data.about.partners[partner_id].facebook %>" data-toggle="tooltip" data-placement="top" title="Facebook">
+	<% if(data.contact.facebook != 'nil') %>
+	<li class="tooltip-social facebook-link">
+	  <a href="<%= data.contact.facebook %>" data-toggle="tooltip" data-placement="top" title="Facebook">
 	    <i class="fa fa-facebook-square fa-2x"></i>
 	  </a>
-        </li>
+	</li>
 	<% end %>
 
-	<% if(data.about.partners[partner_id].linkedin != 'nil') %>
+	<% if(data.contact.linkedin != 'nil') %>
         <li class="tooltip-social linkedin-link">
-	  <a href="<%= data.about.partners[partner_id].linkedin %>" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+	  <a href="<%= data.contact.linkedin %>" data-toggle="tooltip" data-placement="top" title="LinkedIn">
 	    <i class="fa fa-linkedin-square fa-2x"></i>
 	  </a>
-        </li>
+	</li>
 	<% end %>
 
-	<% if(data.about.partners[partner_id].twitter != 'nil') %>
+	<% if(data.contact.twitter != 'nil') %>
         <li class="tooltip-social twitter-link">
-	  <a href="<%= data.about.partners[partner_id].twitter %>" data-toggle="tooltip" data-placement="top" title="Twitter">
+	  <a href="<%= data.contact.twitter %>" data-toggle="tooltip" data-placement="top" title="Twitter">
 	    <i class="fa fa-twitter-square fa-2x"></i>
 	  </a>
-        </li>
+	</li>
 	<% end %>
-
-	<% if(data.about.partners[partner_id].google_plus != 'nil') %>
+	
+	<% if(data.contact.google_plus != 'nil') %>
         <li class="tooltip-social google-plus-link">
-	  <a href="<%= data.about.partners[partner_id].google_plus %>" data-toggle="tooltip" data-placement="top" title="Google+">
+	  <a href="<%= data.contact.google_plus %>" data-toggle="tooltip" data-placement="top" title="Google+">
 	    <i class="fa fa-google-plus-square fa-2x"></i>
 	  </a>
-        </li>
+	</li>
 	<% end %>
 
       </ul>
+      
     </div>
-    
-    <% end %>
-    
+
+
   </div>
   
   <!-- Our Customers -->
