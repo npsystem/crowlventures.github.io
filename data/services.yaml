@@ -6,7 +6,7 @@ services:
   1:
     name: Website Development
     image: /images/nsvm/about.jpg
-    description: <p>Develop and maintain websites, both content websites and e-commerce websites. Design, develop and maintain online properties. Crowl Ventures works through the brainstorming phase and carries it right through deployment and beyond. Crowl brings with it experts and professionals who understand the different facets of the online world and consult to help businesses leverage and maximise the potential.</p> 
+    description: <p>Develop and maintain websites, both content websites and e-commerce websites. Design, develop and maintain online properties. Crowl Ventures works through the brainstorming phase and carries it right through deployment and beyond. Crowl brings with it experts and professionals who understand the different facets of the online world and consult to help businesses leverage and maximise the potential.</p><p>E-Mail Services</p><p>Crowl provides services in deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
     points: nil	 
   2:
     name: Content Development 
@@ -19,27 +19,27 @@ services:
     description: <p> Crowl Ventures develop and manage Digital / Online presence for individuals and organisations. Manage and build traffic on content sites and drive sales for e-commerce ventures using various tools and techniques available. Also take on standalone projects and specific assignments on SEO (Search Engine Optimisation), SEM (Search Engine Marketing) and SMM (Social Media Marketing).</p>
     points: nil
   4:
-    name: Mail Services
+    name: Businsess Consulting & Data Analysis
     image: /images/nsvm/about.jpg
-    description: <p>Crowl provides services in deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
+    description: <p>Data Analysis</p><p>Crowl Provides Data Analysis across industries, from basic dashboarding to advanced algorithms and machine learning based predictive modelling.</p><p>Feasibility Studies: Conduct feasibility studies to ascertain vaibility of projects based on market analysis, Statutes and Financial projections</p><p>Bussiness and Sales Consulting: Process optimisation, Process workflows, Sales Distrubution Structure, Sales force productivity are among some of the areas Crowl ventures consults and adds value in.</p>
     points: nil
   5:
-    name: Data Analysis
+    name: nil
     image: /images/nsvm/about.jpg
     description: nil
     points: nil
   6:
-    name: Businsess Consulting
+    name: nil
     image: /images/nsvm/about.jpg
     description: nil
     points: nil
   7:
-    name: Fesibility Studies
+    name: nil
     image: /images/nsvm/about.jpg
     description: nil
     points: nil
   8:
-    name: Sales Consulting
+    name: nil
     image: /images/nsvm/about.jpg
     description: nil
     points: nil  
