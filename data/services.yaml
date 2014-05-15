@@ -29,15 +29,21 @@ services:
     description: nil
     points: nil
   6:
-    name: Fesibility Studies
-    image: /images/nsvm/about.jpg
-    description: nil
-    points: nil
-  7:
     name: Businsess Consulting
     image: /images/nsvm/about.jpg
     description: nil
     points: nil
+  7:
+    name: Fesibility Studies
+    image: /images/nsvm/about.jpg
+    description: nil
+    points: nil
+  8:
+    name: Sales Consulting
+    image: /images/nsvm/about.jpg
+    description: nil
+    points: nil  
+    
     
       
   
