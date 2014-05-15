@@ -47,14 +47,14 @@ carousels:
   
 highlights:
   1:
-    name: highlight one
-    detail: some details
+    name: Online marketing, Wesbite & Content Development  
+    detail: Develop and Maintian Static Content Websites and E-commerce websites. Develop and write Content. Create and grow Online prescence. Online marketting services - SEO, SEM, SMM , Blogs etc 
   2:
-    name: highlight two
-    detail: some details
+    name: E-mail & Office applications
+    detail: Create corporate e-mail ids and maintian them along with associated office applications - Documents,calender and so on
   3:
-    name: highlight three
-    detail: some details
+    name: Data Analysis & Bussines Consulting
+    detail: Bussines and sales consulting - managing sales teams, structuring distribution, feasibility studies. Data analysis - dashboarding to predictive modeling
 
 description: Crowl Ventures
              Biz Consulting, Web Development & Online marketing  
