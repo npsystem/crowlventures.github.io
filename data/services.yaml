@@ -6,22 +6,22 @@ services:
   1:
     name: Website Development
     image: /images/nsvm/about.jpg
-    description: nil 
+    description: <p>Develop and maintain websites, both content websites and e-commerce websites. Design, develop and maintain online properties. Crowl Ventures works through the brainstorming phase and carries it right through deployment and beyond. Crowl brings with it experts and professionals who understand the different facets of the online world and consult to help businesses leverage and maximise the potential.</p> 
     points: nil	 
   2:
     name: Content Development 
     image: /images/nsvm/about.jpg
-    description: nil
+    description: <p>Crowl has a team of researchers and proficient content writers who help build on the theme and develop content for your website and marketing collateral. Write content for Brochures, WebPages, Blogs, Articles, write-ups that help index your website better on search engines.</p>
     points: nil
   3:
     name: Online Marketing
     image: /images/nsvm/about.jpg
-    description: nil
+    description: <p> Crowl Ventures develop and manage Digital / Online presence for individuals and organisations. Manage and build traffic on content sites and drive sales for e-commerce ventures using various tools and techniques available. Also take on standalone projects and specific assignments on SEO (Search Engine Optimisation), SEM (Search Engine Marketing) and SMM (Social Media Marketing).</p>
     points: nil
   4:
     name: E-mail Services
     image: /images/nsvm/about.jpg
-    description: nil
+    description: <Crowl provides services in deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
     points: nil
   5:
     name: Data Analysis
