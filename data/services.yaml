@@ -19,9 +19,9 @@ services:
     description: <p> Crowl Ventures develop and manage Digital / Online presence for individuals and organisations. Manage and build traffic on content sites and drive sales for e-commerce ventures using various tools and techniques available. Also take on standalone projects and specific assignments on SEO (Search Engine Optimisation), SEM (Search Engine Marketing) and SMM (Social Media Marketing).</p>
     points: nil
   4:
-    name: E-mail Services
+    name: Mail Services
     image: /images/nsvm/about.jpg
-    description: <Crowl provides services in deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
+    description: <p>Crowl provides services in deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
     points: nil
   5:
     name: Data Analysis
