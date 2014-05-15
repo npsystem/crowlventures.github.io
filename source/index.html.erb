@@ -28,9 +28,11 @@ title: Home
 
     <div class="<%= (carousel_id==1) ? 'item active' : 'item' %>">
       <div class="fill" style="background-image:url('<%= data.site.carousels[carousel_id].image %>');"></div>
+      <% if(caption != 'nil') %>
       <div class="carousel-caption">
         <h1><%= caption %></h1>
       </div>
+      <% end %>
     </div>
 
     <% end %>
