@@ -46,7 +46,7 @@ customers:
 
 carousels:
   1:
-    image: /images/crowl/services.jpg
+    image: /images/crowl/home.jpg
     image_text: Slide One
     caption: nil 
   
