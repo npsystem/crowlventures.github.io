@@ -1,13 +1,12 @@
 
 description: <p> Crowl Ventures operates in two broad areas. (a) Bussiness consulting - encomposing sales consulting, Data analysis, project feasbilities, Opertional efficiences, Processes and workflows  and so on. (b)Online marketing and building online prescnse for brands and individulas, building websites both content and e-commerce, developing content for websites. Deploying and maintining e-mail services and other office applications.</p>
-
 subtitle: nil
 
 services:
   1:
     name: Website Development
     image: /images/nsvm/about.jpg
-    description: <p>We perform Statutory Audits for Private, Public and Government Companies under the Companies Act. We also undertake Tax audit of Companies, Firms and Proprietary concerns under The Income Tax Act. Our practises are compliant with Standards of Quality Control (SQC) set by the ICAI.We undertake and structure our Audits based on the requirements of each client but broadly involves the following </p> 
+    description: nil 
     points: nil	 
   2:
     name: Content Development 
