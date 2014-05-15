@@ -8,30 +8,37 @@ services:
     name: Website Development
     image: /images/nsvm/about.jpg
     description: <p>We perform Statutory Audits for Private, Public and Government Companies under the Companies Act. We also undertake Tax audit of Companies, Firms and Proprietary concerns under The Income Tax Act. Our practises are compliant with Standards of Quality Control (SQC) set by the ICAI.We undertake and structure our Audits based on the requirements of each client but broadly involves the following </p> 
+    points: nil	 
   2:
     name: Content Development 
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
   3:
     name: Online Marketing
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
   4:
     name: E-mail Services
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
   5:
     name: Data Analysis
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
   6:
     name: Fesibility Studies
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
   7:
     name: Businsess Consulting
     image: /images/nsvm/about.jpg
     description: nil
+    points: nil
     
       
   
